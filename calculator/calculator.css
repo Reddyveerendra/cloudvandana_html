@@ -7,11 +7,12 @@
   padding: 40px;
   display: flex;
   justify-content: center;
-  border-radius: 3px;
+  border-radius: 13px;
 }
 .calculator {
   border-radius: 3px;
   margin: 2%;
+  border-radius: 4px;
 }
 .one {
   display: grid;
@@ -19,25 +20,10 @@
   height: 60px;
   width: 300px;
 }
-.two {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  height: 60px;
-  width: 300px;
-}
-.three {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  height: 60px;
-  width: 300px;
-}
+.two,
+.five,
+.three,
 .four {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  height: 60px;
-  width: 300px;
-}
-.five {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   height: 60px;
@@ -51,4 +37,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: aliceblue;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  border: 1px solid whitesmoke;
+}
+.left {
+  background-color: #6c6c6c;
 }

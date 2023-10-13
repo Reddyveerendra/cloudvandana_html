@@ -50,3 +50,18 @@
 .left {
   background-color: #6c6c6c;
 }
+.result {
+  text-align: left;
+  display: flex;
+  padding-top: 10%;
+  padding-left: 1%;
+}
+.error {
+  color: #ba3939;
+  background: #ffe0e0;
+  text-align: center;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+}
